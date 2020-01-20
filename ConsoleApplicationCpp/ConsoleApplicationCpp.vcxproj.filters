@@ -21,9 +21,27 @@
     <ClCompile Include="ConsoleApplication.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="mythreads.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bounce.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Whatever.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="threading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bounce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="prime.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -150,10 +150,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bounce.cpp" />
     <ClCompile Include="ConsoleApplication.c" />
+    <ClCompile Include="mythreads.c" />
+    <ClCompile Include="prime.c" />
     <ClCompile Include="Whatever.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="bounce.h" />
+    <ClInclude Include="prime.h" />
+    <ClInclude Include="threading.h" />
     <ClInclude Include="Whatever.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
